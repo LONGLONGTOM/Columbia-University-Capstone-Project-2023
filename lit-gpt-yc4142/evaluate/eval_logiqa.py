@@ -192,6 +192,7 @@ def main(
         data_json = json.load(f);
     correct_count = 0;
     total_count = 0;
+    answer_list = [];
     for i in range(0, len(data_json)):
         data_dict = data_json[i];
         prompt = parse_data_dict(data_dict);
@@ -236,16 +237,22 @@ def main(
             if (extracted_letter== data_dict['output']):
                 fabric.print("correct\n")
                 correct_count += 1
-            total_count += 1;
+            total_count += 1
+            to_append = data_dict
+            to_append['LLM_Answer'] = extracted_letter
+            answer_list.append(to_append);
         if fabric.device.type == "cuda":
             fabric.print(f"Memory used: {torch.cuda.max_memory_allocated() / 1e9:.02f} GB", file=sys.stderr)
+        
     
-    result = [{'total_count' : total_count,
+    result = {'total_count' : total_count,
             'correct_count' : correct_count,
-            'accuracy' : correct_count / total_count}]
+            'accuracy' : correct_count / total_count}
+    answer_list.append(result);
+
     print(result);
     out_file_path = destination_path / out_file_name
-    data_test_json_string = json.dumps(result, indent=4)
+    data_test_json_string = json.dumps(answer_list, indent=4)
     with open(out_file_path, 'w') as file:
         file.write(data_test_json_string)
     return;
