@@ -11,6 +11,7 @@ from lightning.fabric.strategies import FSDPStrategy
 import json
 import re
 
+from tqdm import tqdm
 # support running without installing as a package
 wd = Path(__file__).parent.parent.resolve()
 sys.path.append(str(wd))
@@ -186,16 +187,18 @@ def main(
 
     tokenizer = Tokenizer(checkpoint_dir)
 
-    data_json = [];
-    data_path = data_dir / data_file_name;
+    data_json = []
+    data_path = data_dir / data_file_name
     with open(data_path) as f:
-        data_json = json.load(f);
-    correct_count = 0;
-    total_count = 0;
-    answer_list = [];
-    for i in range(0, len(data_json)):
+        data_json = json.load(f)
+    correct_count = 0
+    valid_count = 0
+    invalid_count = 0
+    total_count = 0
+    answer_list = []
+    for i in tqdm(range(0, len(data_json)), desc = "Number of samples evaluated:"):
         data_dict = data_json[i];
-        prompt = parse_data_dict(data_dict);
+        prompt = parse_data_dict(data_dict)
         encoded = tokenizer.encode(prompt, device=fabric.device)
         prompt_length = encoded.size(0)
         max_returned_tokens = prompt_length + max_new_tokens
@@ -206,7 +209,7 @@ def main(
 
         L.seed_everything(1234)
     
-        for i in range(num_samples):
+        for j in range(num_samples):
             with fabric.init_tensor():
                 # enable the kv cache
                 model.set_kv_cache(batch_size=1)
@@ -215,20 +218,26 @@ def main(
             y = generate(model, encoded, max_returned_tokens, temperature=temperature, top_k=top_k)
             t = time.perf_counter() - t0
 
-            to_search = tokenizer.decode(y)[len(prompt):];
-            pattern = r"Answer: ?\n?([A-Za-z])"
-
+            to_search = tokenizer.decode(y)[len(prompt):]
+            print("output started:\n")
+            print(to_search)
+            print("output")
+            pattern = r"(?:Answer|Label|A):\s*([A-Za-z])"
+                 
             # Search for the pattern in the input string
             match = re.search(pattern, to_search)
 
             # Extract the letter if a match is found
             extracted_letter = "";
             if match:
-                extracted_letter = match.group(1).replace(" ", "");
+                extracted_letter = match.group(1).replace(" ", "")
                 fabric.print("Extracted letter:", extracted_letter)
-              
+                valid_count = valid_count + 1
+                fabric.print("Valid Answer")              
             else:
                 fabric.print("No letter found after 'Answer: '")
+                invalid_count = invalid_count + 1
+                fabric.print("Invalid Answer")
             #print(tokenizer.decode(y).split("\n"))
             tokens_generated = y.size(0) - prompt_length
             fabric.print(
@@ -240,17 +249,20 @@ def main(
             total_count += 1
             to_append = data_dict
             to_append['LLM_Answer'] = extracted_letter
-            answer_list.append(to_append);
+            answer_list.append(to_append)
         if fabric.device.type == "cuda":
             fabric.print(f"Memory used: {torch.cuda.max_memory_allocated() / 1e9:.02f} GB", file=sys.stderr)
         
     
     result = {'total_count' : total_count,
             'correct_count' : correct_count,
-            'accuracy' : correct_count / total_count}
-    answer_list.append(result);
+            'valid_count' : valid_count,
+            'invalid_count' : invalid_count,
+            'accuracy_among_valid' : correct_count / valid_count,
+            'accuracy_total' : correct_count / total_count}
+    answer_list.append(result)
 
-    print(result);
+    print(result)
     out_file_path = destination_path / out_file_name
     data_test_json_string = json.dumps(answer_list, indent=4)
     with open(out_file_path, 'w') as file:

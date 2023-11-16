@@ -4,29 +4,23 @@ import json
 
 
 def parse_data(data_dict):
-    instruction = f"""Pick the option that is the best answer to a question corresponding to the following context.
-    If the option you pick is 'A', simply reply: 'Answer:A'."""
+    instruction = f"""Read the following context and question. Then, choose the most appropriate answer from the given options."""
     opt_to_letter_map = {0:'A', 1:'B', 2:'C', 3:'D'};
     input_txt =  f""" 
-    ### context
-    {data_dict['context']} 
-    
-    ### question
-    {data_dict['query']}
-    
-    ###options
+    Context: {data_dict['context']}
+    Question: {data_dict['query']}
+    Options:
     A) {data_dict['options'][0]}
     B) {data_dict['options'][1]}
     C) {data_dict['options'][2]}
-    D) {data_dict['options'][3]}""";
+    D) {data_dict['options'][3]}"""
     output_opt = opt_to_letter_map[data_dict['correct_option']]
     return {"instruction":instruction,
             "input":input_txt,
             "output":output_opt};
 
 def parse_data_random_perm(data_dict):
-    instruction = f"""Pick the option that is the best answer to a question corresponding to the following context.
-    If the option you pick is 'A', simply reply: 'Answer:A'."""
+    instruction = f"""Read the following context and question. Then, choose the most appropriate answer from the given options."""
     index = [0, 1, 2, 3]
     opt_to_letter_map = {0:'A', 1:'B', 2:'C', 3:'D'};
     random.shuffle(index);
@@ -37,17 +31,13 @@ def parse_data_random_perm(data_dict):
             correct_idx = i
     
     input_txt =  f""" 
-    ### context
-    {data_dict['context']} 
-    
-    ### question
-    {data_dict['query']}
-    
-    ###options
+    Context: {data_dict['context']}
+    Question: {data_dict['query']}
+    Options:
     A) {data_dict['options'][index[0]]}
     B) {data_dict['options'][index[1]]}
     C) {data_dict['options'][index[2]]}
-    D) {data_dict['options'][index[3]]}""";
+    D) {data_dict['options'][index[3]]}"""
     output_opt = opt_to_letter_map[correct_idx];
     return {"instruction":instruction,
             "input":input_txt,
@@ -91,6 +81,7 @@ if __name__ == "__main__":
         #    file.write(data_train_val_json_string
         data_train_json.extend(data_validation_json)
         data_train_val_json.extend(data_train_json)
+    data_train_val_json = random.sample(data_train_val_json, 7500)
     data_train_val_json_string = json.dumps(data_train_val_json, indent=4)
     with open('evaluate/data/logiqa/train_val.json', 'w') as file:
         file.write(data_train_val_json_string)
