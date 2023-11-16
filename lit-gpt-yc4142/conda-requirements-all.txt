@@ -1,4 +1,3 @@
---file conda-requirements.txt
 bitsandbytes==0.41.2    # quantization
 scipy                   # required by bitsandbytes
 sentencepiece           # pythia, falcon, redpajama
