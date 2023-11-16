@@ -5,11 +5,13 @@ mkdir data/logiqa
 
 cd ..
 
-#python3 scripts/download.py\
- # --repo_id togethercomputer/RedPajama-INCITE-Instruct-3B-v1
+python3 scripts/download.py\
+  --repo_id togethercomputer/RedPajama-INCITE-Instruct-3B-v1
 
-#python3 scripts/convert_hf_checkpoint.py\
- # --checkpoint_dir checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1
+
+python3 scripts/convert_hf_checkpoint.py\
+  --checkpoint_dir checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1
+
 
 python3 evaluate/load_logiqa_data.py\
 
@@ -32,7 +34,7 @@ python3 finetune/lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
   --data_dir "evaluate/data/logiqa" \
   --out_dir "evaluate/out/lora_weights_logiqa/RedPajama-INCITE-Instruct-3B-v1/" \
-  --precision "16-true" 
+  --precision "16-true"
 
 python3 scripts/merge_lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1"  \
