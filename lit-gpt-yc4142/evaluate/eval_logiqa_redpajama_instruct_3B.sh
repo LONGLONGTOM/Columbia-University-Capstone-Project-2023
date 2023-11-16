@@ -9,7 +9,7 @@ python scripts/download.py\
   --repo_id togethercomputer/RedPajama-INCITE-Instruct-3B-v1
 
 python scripts/convert_hf_checkpoint.py\
-  --checkpoint_dir checkpoints/togethercomputer/RedPajama-INCITE-Base-3B-v1
+  --checkpoint_dir checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1
 
 python evaluate/load_logiqa_data.py\
 
