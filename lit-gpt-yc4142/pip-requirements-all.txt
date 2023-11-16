@@ -1,4 +1,4 @@
--r requirements.txt
+-r pip-requirements.txt
 bitsandbytes==0.41.2    # quantization
 scipy                   # required by bitsandbytes
 sentencepiece           # pythia, falcon, redpajama
