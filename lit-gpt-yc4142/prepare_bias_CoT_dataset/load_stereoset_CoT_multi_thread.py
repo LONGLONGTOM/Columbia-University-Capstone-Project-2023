@@ -107,7 +107,7 @@ def generate_prompt_anti_stereotype(
 def generate_CoT_From_GPT(
     api_key:str = "",
     destination_path:Path = Path("data/stereoset_CoT"),
-    out_file_name:str = "bias_CoT_explanation",
+    out_file_name:str = "bias_CoT_explanation_total.json",
 ) -> None:
     dataset = load_dataset("stereoset", "intersentence")['validation']
     client = OpenAI(api_key = api_key)
@@ -134,7 +134,7 @@ def generate_CoT_From_GPT(
 
 
     json_list_total_string = json.dumps(json_list_total, indent=4)
-    out_file_path_json_list_total_string = destination_path / (out_file_name + "_total.json")
+    out_file_path_json_list_total_string = destination_path / out_file_name
     with open(out_file_path_json_list_total_string, 'w') as file:
         file.write(json_list_total_string)
       
