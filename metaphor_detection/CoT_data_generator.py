@@ -88,7 +88,7 @@ def generate_prompt(context):
     return (system_prompt, user_prompt)
  
 def generate_CoT_From_GPT(
-    api_key:str = "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",
+    api_key:str = "",
     destination_path:Path = Path("metaphor_detection/data"),
     out_file_name:str = "Metaphor_CoT_explanation",
 ) -> None:
