@@ -17,7 +17,7 @@ from lit_gpt.tokenizer import Tokenizer
 
 
 def prepare(
-    destination_path: Path = Path("data/stereoset_CoT"),
+    destination_path: Path = Path("prepare_bias_CoT_dataset/data"),
     checkpoint_dir: Path = Path("checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1"),
     test_split_fraction: float = 0.03865,  # to get exactly 2000 test samples,
     seed: int = 42,

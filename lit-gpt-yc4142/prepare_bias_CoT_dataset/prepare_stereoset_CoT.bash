@@ -21,8 +21,14 @@ python3 prepare_bias_CoT_dataset/load_stereoset_CoT_multi_thread.py \
   --destination_path "prepare_bias_CoT_dataset/data" \
   --out_file_name "bias_CoT_explanation_multi_thread"
 
-#python3 prepare_stereoset_CoT.py \
-#  --destination_path "data/stereoset_CoT" \
-#  --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
-#  --data_file_name "bias_CoT_explanation_total.json"
+python3 prepare_bias_CoT_dataset/scramble_stereoset_CoT.py\
+  --source_path "prepare_bias_CoT_dataset/data" \
+  --data_file_name "bias_CoT_explanation_multi_thread_total.json" \
+  --destination_path "prepare_bias_CoT_dataset/data" \
+  --out_file_name "bias_CoT_explanation_multi_thread_scrambled.json"
+
+python3 prepare_bias_CoT_dataset/prepare_stereoset_CoT.py \
+  --destination_path "prepare_bias_CoT_dataset/data" \
+  --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
+  --data_file_name "bias_CoT_explanation_multi_thread_scrambled.json"
 
