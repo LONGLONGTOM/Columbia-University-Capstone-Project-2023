@@ -6,7 +6,6 @@ python3 finetune/lora.py \
   --data_dir "prepare_ethics_CoT_dataset/data" \
   --out_dir "prepare_ethics_CoT_dataset/out/lora_weights_logiqa/RedPajama-INCITE-Instruct-3B-v1/" \
 
-python2 scripts/convert_hf_checkpoint.py --checkpoint_dir checkpoints/togethercomputer/RedPajama-INCITE-Base-3B-v1
 python3 scripts/merge_lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1"  \
   --lora_path "prepare_ethics_CoT_dataset/out/lora_weights_logiqa/RedPajama-INCITE-Instruct-3B-v1/lit_model_lora_finetuned.pth" \
