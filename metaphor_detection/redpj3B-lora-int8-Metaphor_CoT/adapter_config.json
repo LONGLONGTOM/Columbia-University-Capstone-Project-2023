@@ -1,5 +1,4 @@
 {
-  "alpha_pattern": {},
   "auto_mapping": null,
   "base_model_name_or_path": "togethercomputer/RedPajama-INCITE-instruct-3B-v1",
   "bias": "none",
@@ -13,7 +12,6 @@
   "modules_to_save": null,
   "peft_type": "LORA",
   "r": 8,
-  "rank_pattern": {},
   "revision": null,
   "target_modules": [
     "query_key_value"
