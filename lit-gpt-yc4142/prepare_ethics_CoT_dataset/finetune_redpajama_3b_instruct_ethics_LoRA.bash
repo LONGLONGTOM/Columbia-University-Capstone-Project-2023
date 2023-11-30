@@ -1,7 +1,7 @@
 #!/bin/bash
 
+cd ..
 mkdir prepare_ethics_CoT_dataset/out
-
 python3 finetune/lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
   --data_dir "prepare_ethics_CoT_dataset/data" \
