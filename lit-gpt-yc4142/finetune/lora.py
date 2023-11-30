@@ -32,7 +32,7 @@ save_interval = 100
 eval_iters = 100
 eval_max_new_tokens = 100
 log_interval = 1
-devices = 1
+devices = 4
 
 # Hyperparameters
 learning_rate = 3e-4
