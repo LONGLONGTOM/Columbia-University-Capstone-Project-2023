@@ -123,9 +123,9 @@ def generate_prompt(context):
     Your response should begin with repeating the context and explaining whether the content is metaphoric or not.
     Make sure your language is simple and brief."""
     return (system_prompt, user_prompt)
- 
+  
 def generate_CoT_From_GPT(
-    api_key:str = "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",
+    api_key:str = "",
     destination_path:Path = Path("metaphor_detection/data"),
     out_file_name:str = "Metaphor_CoT_explanation_v2",
 ) -> None:
