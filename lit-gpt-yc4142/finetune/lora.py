@@ -10,6 +10,7 @@ from lightning.fabric.loggers import CSVLogger
 from lightning.fabric.plugins import BitsandbytesPrecision
 from lightning.fabric.strategies import FSDPStrategy
 from lightning.fabric.utilities import ThroughputMonitor
+from lightning.fabric.accelerators import find_usable_cuda_devices
 
 # support running without installing as a package
 wd = Path(__file__).parent.parent.resolve()
@@ -32,16 +33,16 @@ save_interval = 100
 eval_iters = 100
 eval_max_new_tokens = 100
 log_interval = 1
-devices = 4
+devices = 1
 
 # Hyperparameters
 learning_rate = 3e-4
-batch_size = 128
-micro_batch_size = 4
+batch_size = 64
+micro_batch_size = 2
 gradient_accumulation_iters = batch_size // micro_batch_size
 assert gradient_accumulation_iters > 0
-max_seq_length = None  # assign value to truncate
-max_iters = 50000  # train dataset size
+max_seq_length = 512  # assign value to truncate
+max_iters = 10000  # train dataset size
 weight_decay = 0.01
 lora_r = 8
 lora_alpha = 16
