@@ -22,13 +22,18 @@ python3 prepare_bias_CoT_dataset/generate_stereoset_multi_thread.py \
   --CoT_out_file_name "bias_CoT_reasoning.json" \
   --non_CoT_out_file_name "bias_non_CoT_reasoning.json"
 
+
+mkdir prepare_bias_CoT_dataset/data/CoT
+mkdir prepare_bias_CoT_dataset/data/non_CoT
+
 python3 prepare_bias_CoT_dataset/scramble_stereoset_data.py\
   --source_path "prepare_bias_CoT_dataset/data" \
   --CoT_data_file_name "bias_CoT_reasoning.json" \
   --non_CoT_data_file_name "bias_non_CoT_reasoning.json" \
-  --destination_path "prepare_bias_CoT_dataset/data" \
+  --CoT_destination_path "prepare_bias_CoT_dataset/data/CoT" \
   --CoT_out_file_name_train "bias_CoT_reasoning_scrambled_train.json" \
   --CoT_out_file_name_test "bias_CoT_reasoning_scrambled_test.json" \
+  --non_CoT_destination_path "prepare_bias_CoT_dataset/data/non_CoT" \
   --non_CoT_out_file_name_train "bias_non_CoT_reasoning_scrambled_train.json" \
   --non_CoT_out_file_name_test "bias_non_CoT_reasoning_scrambled_test.json" \
   --test_ratio 0.03865

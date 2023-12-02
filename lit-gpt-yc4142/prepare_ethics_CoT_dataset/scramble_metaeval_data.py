@@ -6,14 +6,15 @@ import random
 
 def scramble(
     source_path:Path = Path("prepare_ethics_CoT_dataset/data"),
-    destination_path:Path = Path("prepare_ethics_CoT_dataset/data"),
     commonsense_CoT_data_file_name:str = "ethics_commonsense_CoT_reasoning.json",
     deontology_CoT_data_file_name:str = "ethics_deontology_CoT_reasoning.json",
     justice_CoT_data_file_name:str = "ethics_justice_CoT_reasoning.json",
+    CoT_destination_path:Path = Path("prepare_ethics_CoT_dataset/data/CoT"),
     CoT_out_file_name:str = "ethics_CoT_reasoning_scrambled.json",
     commonsense_non_CoT_data_file_name:str = "ethics_commonsense_non_CoT_reasoning.json",
     deontology_non_CoT_data_file_name:str = "ethics_deontology_non_CoT_reasoning.json",
     justice_non_CoT_data_file_name:str = "ethics_justice_non_CoT_reasoning.json",
+    non_CoT_destination_path:Path = Path("prepare_ethics_CoT_dataset/data/non_CoT"),
     non_CoT_out_file_name:str = "ethics_non_CoT_reasoning_scrambled.json",
     
 
@@ -59,12 +60,12 @@ def scramble(
         CoT_json_list_out.append(CoT_json_list[indexes])
         non_CoT_json_list_out.append(non_CoT_json_list[indexes])
 
-    CoT_destination_file = destination_path / CoT_out_file_name
+    CoT_destination_file = CoT_destination_path / CoT_out_file_name
     CoT_json_object = json.dumps(CoT_json_list_out, indent=4)
     with open(CoT_destination_file, 'w') as file:
         file.write(CoT_json_object)
 
-    non_CoT_destination_file = destination_path / non_CoT_out_file_name
+    non_CoT_destination_file = non_CoT_destination_path / non_CoT_out_file_name
     non_CoT_json_object = json.dumps(non_CoT_json_list_out, indent=4)
     with open(non_CoT_destination_file, 'w') as file:
         file.write(non_CoT_json_object)

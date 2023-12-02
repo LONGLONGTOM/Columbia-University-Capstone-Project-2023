@@ -2,12 +2,11 @@
 cd ..
 mkdir prepare_bias_CoT_dataset/out
 mkdir prepare_bias_CoT_dataset/out/CoT
-mkdir prepare_bias_CoT_dataset/data/CoT
 python3 prepare_bias_CoT_dataset/prepare_stereoset_data.py \
   --destination_path "prepare_bias_CoT_dataset/data/CoT" \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
   --data_file_name "bias_CoT_reasoning_scrambled_train.json"
-  --max_seq_length 1024
+
 python3 finetune/lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
   --data_dir "prepare_bias_CoT_dataset/data/CoT" \

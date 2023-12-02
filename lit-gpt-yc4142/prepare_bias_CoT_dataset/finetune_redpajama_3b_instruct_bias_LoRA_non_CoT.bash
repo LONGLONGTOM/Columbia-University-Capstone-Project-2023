@@ -2,7 +2,6 @@
 cd ..
 mkdir prepare_bias_CoT_dataset/out
 mkdir prepare_bias_CoT_dataset/out/non_CoT
-mkdir prepare_bias_CoT_dataset/data/non_CoT
 python3 prepare_bias_CoT_dataset/prepare_stereoset_data.py \
   --destination_path "prepare_bias_CoT_dataset/data/non_CoT" \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \

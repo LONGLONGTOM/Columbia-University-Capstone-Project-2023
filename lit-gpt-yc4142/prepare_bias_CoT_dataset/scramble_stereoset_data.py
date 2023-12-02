@@ -8,9 +8,10 @@ def scramble(
     source_path:Path = Path("prepare_bias_CoT_dataset/data"),
     CoT_data_file_name:str = "bias_CoT_reasoning.json",
     non_CoT_data_file_name:str = "bias_non_CoT_reasoning.json",
-    destination_path:Path = Path("prepare_bias_CoT_dataset/data"),
+    CoT_destination_path:Path = Path("prepare_bias_CoT_dataset/data/CoT"), 
     CoT_out_file_name_train:str = "bias_CoT_reasoning_scrambled_train.json",
     CoT_out_file_name_test:str = "bias_CoT_reasoning_scrambled_test.json",
+    non_CoT_destination_path:Path = Path("prepare_bias_CoT_dataset/data/non_CoT"), 
     non_CoT_out_file_name_train:str = "bias_non_CoT_reasoning_scrambled_train.json",
     non_CoT_out_file_name_test:str = "bias_non_CoT_reasoning_scrambled_test.json",
     test_ratio:float = 0.03865
@@ -51,22 +52,22 @@ def scramble(
             CoT_json_list_out_test.append(CoT_json_list[shuffled_index[i]])
             non_CoT_json_list_out_test.append(non_CoT_json_list[shuffled_index[i]])
 
-    destination_file_CoT_train = destination_path / CoT_out_file_name_train
+    destination_file_CoT_train =  CoT_destination_path / CoT_out_file_name_train
     json_object_CoT_train = json.dumps(CoT_json_list_out_train, indent=4)
     with open(destination_file_CoT_train, 'w') as file:
         file.write(json_object_CoT_train)
 
-    destination_file_non_CoT_train = destination_path / non_CoT_out_file_name_train
+    destination_file_non_CoT_train = non_CoT_destination_path / non_CoT_out_file_name_train
     json_object_non_CoT_train = json.dumps(non_CoT_json_list_out_train, indent=4)
     with open(destination_file_non_CoT_train, 'w') as file:
         file.write(json_object_non_CoT_train)
 
-    destination_file_CoT_test = destination_path / CoT_out_file_name_test
+    destination_file_CoT_test = CoT_destination_path/ CoT_out_file_name_test
     json_object_CoT_test = json.dumps(CoT_json_list_out_test, indent=4)
     with open(destination_file_CoT_test, 'w') as file:
         file.write(json_object_CoT_test)
 
-    destination_file_non_CoT_test = destination_path / non_CoT_out_file_name_test
+    destination_file_non_CoT_test = non_CoT_destination_path / non_CoT_out_file_name_test
     json_object_non_CoT_test = json.dumps(non_CoT_json_list_out_test, indent=4)
     with open(destination_file_non_CoT_test, 'w') as file:
         file.write(json_object_non_CoT_test)

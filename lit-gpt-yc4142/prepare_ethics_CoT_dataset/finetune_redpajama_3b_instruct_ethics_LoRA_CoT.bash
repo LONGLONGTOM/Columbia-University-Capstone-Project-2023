@@ -2,12 +2,11 @@
 cd ..
 mkdir prepare_ethics_CoT_dataset/out
 mkdir prepare_ethics_CoT_dataset/out/CoT
-mkdir prepare_ethics_CoT_dataset/data/CoT
+
 python3 prepare_ethics_CoT_dataset/prepare_metaeval_data.py \
   --destination_path "prepare_ethics_CoT_dataset/data/CoT" \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
   --data_file_name "ethics_CoT_reasoning_scrambled.json" \
-  --max_seq_length 1024
 
 python3 finetune/lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
