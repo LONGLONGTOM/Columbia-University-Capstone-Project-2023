@@ -41,7 +41,7 @@ batch_size = 64
 micro_batch_size = 2
 gradient_accumulation_iters = batch_size // micro_batch_size
 assert gradient_accumulation_iters > 0
-max_seq_length = 512  # assign value to truncate
+max_seq_length = None  # assign value to truncate
 max_iters = 10000  # train dataset size
 weight_decay = 0.01
 lora_r = 8
@@ -92,7 +92,7 @@ def setup(
         strategy = "auto"
 
     logger = CSVLogger(out_dir.parent, out_dir.name, flush_logs_every_n_steps=log_interval)
-    fabric = L.Fabric(devices=devices, strategy=strategy, precision=precision, loggers=logger, plugins=plugins)
+    fabric = L.Fabric(devices=find_usable_cuda_devices(devices), strategy=strategy, precision=precision, loggers=logger, plugins=plugins)
     fabric.print(hparams)
     fabric.launch(main, data_dir, checkpoint_dir, out_dir)
 
