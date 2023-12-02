@@ -2,14 +2,16 @@
 cd ..
 mkdir prepare_ethics_CoT_dataset/out
 mkdir prepare_ethics_CoT_dataset/out/non_CoT
+mkdir prepare_ethics_CoT_dataset/data/non_CoT
 python3 prepare_ethics_CoT_dataset/prepare_metaeval_data.py \
-  --destination_path "prepare_ethics_CoT_dataset/data" \
+  --destination_path "prepare_ethics_CoT_dataset/data/non_CoT" \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
   --data_file_name "ethics_non_CoT_reasoning_scrambled.json" \
+  --max_seq_length 1024
 
 python3 finetune/lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
-  --data_dir "prepare_ethics_CoT_dataset/data" \
+  --data_dir "prepare_ethics_CoT_dataset/data/non_CoT" \
   --out_dir "prepare_ethics_CoT_dataset/out/non_CoT/lora_weights_metaeval/RedPajama-INCITE-Instruct-3B-v1/" \
   --precision "32-true"\
   --quantize "bnb.nf4"
