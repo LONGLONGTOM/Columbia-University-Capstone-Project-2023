@@ -25,4 +25,7 @@ prepare_ethics_CoT_dataset/out/non_CoT/lora_merged_metaeval/RedPajama-INCITE-Ins
 python3 scripts/merge_lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1"  \
   --lora_path "prepare_ethics_CoT_dataset/out/non_CoT/lora_weights_metaeval/RedPajama-INCITE-Instruct-3B-v1/lit_model_lora_finetuned.pth" \
-  --out_dir "prepare_ethics_CoT_dataset/out/non_CoT/lora_merged_metaeval/RedPajama-INCITE-Instruct-3B-v1/"\
+  --out_dir "prepare_ethics_CoT_dataset/out/non_CoT/lora_merged_metaeval/RedPajama-INCITE-Instruct-3B-v1/"
+
+
+
