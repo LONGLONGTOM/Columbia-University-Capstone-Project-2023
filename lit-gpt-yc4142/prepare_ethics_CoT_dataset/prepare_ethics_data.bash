@@ -12,7 +12,7 @@ cd ..
  # --checkpoint_dir checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1
 
 python3 prepare_ethics_CoT_dataset/generate_metaeval_commonsense_multi_thread.py \
-  --api_key "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" \
+  --api_key "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" \
   --data_file_path "prepare_ethics_CoT_dataset/ethics_raw_data/commonsense/cm_train.csv" \
   --destination_path "prepare_ethics_CoT_dataset/data" \
   --CoT_out_file_name "ethics_commonsense_CoT_reasoning.json" \
@@ -22,7 +22,7 @@ python3 prepare_ethics_CoT_dataset/generate_metaeval_commonsense_multi_thread.py
 
 
 python3 prepare_ethics_CoT_dataset/generate_metaeval_deontology_multi_thread.py \
-  --api_key "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" \
+  --api_key "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" \
   --data_file_path "prepare_ethics_CoT_dataset/ethics_raw_data/deontology/deontology_train.csv" \
   --destination_path "prepare_ethics_CoT_dataset/data" \
   --CoT_out_file_name "ethics_deontology_CoT_reasoning.json" \
@@ -31,7 +31,7 @@ python3 prepare_ethics_CoT_dataset/generate_metaeval_deontology_multi_thread.py 
   --acceptable_unacceptable_ratio 0.5
 
 python3 prepare_ethics_CoT_dataset/generate_metaeval_justice_multi_thread.py \
-  --api_key "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" \
+  --api_key "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" \
   --data_file_path "prepare_ethics_CoT_dataset/ethics_raw_data/justice/justice_train.csv" \
   --destination_path "prepare_ethics_CoT_dataset/data" \
   --CoT_out_file_name "ethics_justice_CoT_reasoning.json" \

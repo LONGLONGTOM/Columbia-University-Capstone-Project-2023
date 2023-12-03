@@ -201,7 +201,7 @@ def generate_CoT_From_GPT(
     non_CoT_queue = queue.Queue()
     threads = []
 
-    for i in tqdm(range(0, 10), desc = "Number of samples evaluated:"):
+    for i in tqdm(range(0, len(dataset)), desc = "Number of samples evaluated:"):
         stereoset_row = dataset[i]
         thread = threading.Thread(target = process_stereoset_data, args = (stereoset_row, client, CoT_queue, non_CoT_queue))
         threads.append(thread)

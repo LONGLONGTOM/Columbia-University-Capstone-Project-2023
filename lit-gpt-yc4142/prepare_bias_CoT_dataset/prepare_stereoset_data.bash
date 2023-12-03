@@ -17,7 +17,7 @@ cd ..
 #  --out_file_name "bias_CoT_explanation"
 
 python3 prepare_bias_CoT_dataset/generate_stereoset_multi_thread.py \
-  --api_key "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" \
+  --api_key "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" \
   --destination_path "prepare_bias_CoT_dataset/data" \
   --CoT_out_file_name "bias_CoT_reasoning.json" \
   --non_CoT_out_file_name "bias_non_CoT_reasoning.json"
