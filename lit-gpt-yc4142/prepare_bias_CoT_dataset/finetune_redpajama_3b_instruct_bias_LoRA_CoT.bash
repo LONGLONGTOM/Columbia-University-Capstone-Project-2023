@@ -12,14 +12,11 @@ python3 finetune/lora.py \
   --checkpoint_dir "checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1" \
   --data_dir "prepare_bias_CoT_dataset/data/CoT" \
   --out_dir "prepare_bias_CoT_dataset/out/CoT/lora_weights_stereoset/RedPajama-INCITE-Instruct-3B-v1/" \
-  --precision "32-true"\
+  --precision "32-true" \
   --quantize "bnb.nf4"
 
 mkdir prepare_bias_CoT_dataset/out/CoT/lora_merged_stereoset
 mkdir prepare_bias_CoT_dataset/out/CoT/lora_merged_stereoset/RedPajama-INCITE-Instruct-3B-v1
-
-cp checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1/*.json \
-prepare_bias_CoT_dataset/out/CoT/lora_merged_stereoset/RedPajama-INCITE-Instruct-3B-v1/
 
 cp checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1/*.json \
 prepare_bias_CoT_dataset/out/CoT/lora_merged_stereoset/RedPajama-INCITE-Instruct-3B-v1/

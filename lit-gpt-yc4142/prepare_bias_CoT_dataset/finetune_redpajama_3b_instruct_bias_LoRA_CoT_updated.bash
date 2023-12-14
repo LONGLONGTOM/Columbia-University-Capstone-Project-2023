@@ -15,8 +15,8 @@ python3 finetune/lora.py \
   --precision "32-true"\
   --quantize "bnb.nf4"
 
-mkdir prepare_bias_CoT_dataset/out_updated/CoT/lora_merged_metaeval
-mkdir prepare_bias_CoT_dataset/out_updated/CoT/lora_merged_metaeval/RedPajama-INCITE-Instruct-3B-v1
+mkdir prepare_bias_CoT_dataset/out_updated/CoT/lora_merged_stereoset
+mkdir prepare_bias_CoT_dataset/out_updated/CoT/lora_merged_stereoset/RedPajama-INCITE-Instruct-3B-v1
 
 cp checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1/*.json \
 prepare_bias_CoT_dataset/out_updated/CoT/lora_merged_stereoset/RedPajama-INCITE-Instruct-3B-v1/

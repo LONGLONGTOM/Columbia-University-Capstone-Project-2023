@@ -92,7 +92,7 @@ def setup(
         strategy = "auto"
 
     logger = CSVLogger(out_dir.parent, out_dir.name, flush_logs_every_n_steps=log_interval)
-    fabric = L.Fabric(devices=find_usable_cuda_devices(devices), strategy=strategy, precision=precision, loggers=logger, plugins=plugins)
+    fabric = L.Fabric(devices=[0], strategy=strategy, precision=precision, loggers=logger, plugins=plugins)
     fabric.print(hparams)
     fabric.launch(main, data_dir, checkpoint_dir, out_dir)
 
