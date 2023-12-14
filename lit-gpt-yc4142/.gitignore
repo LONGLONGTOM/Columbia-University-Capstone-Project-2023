@@ -12,5 +12,7 @@ datasets
 checkpoints
 out
 wandb
+out
+out_updated
 
 tests/original_phi_1_5.py
