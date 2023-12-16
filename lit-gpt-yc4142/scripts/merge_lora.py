@@ -43,7 +43,7 @@ def merge_lora(
         precision: Indicates the Fabric precision setting to use.
     """
     precision = precision or get_default_supported_precision(training=False)
-    fabric = L.Fabric(devices=1, precision=precision)
+    fabric = L.Fabric(devices=[0], precision=precision)
 
     check_valid_checkpoint_dir(checkpoint_dir)
 

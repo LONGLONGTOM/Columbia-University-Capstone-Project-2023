@@ -17,12 +17,12 @@ from lit_gpt.tokenizer import Tokenizer
 
 
 def prepare(
-    destination_path: Path = Path("data/logiqa"),
+    destination_path: Path = Path("prepare_bias_CoT_dataset/data"),
     checkpoint_dir: Path = Path("checkpoints/togethercomputer/RedPajama-INCITE-Instruct-3B-v1"),
     test_split_fraction: float = 0.03865,  # to get exactly 2000 test samples,
     seed: int = 42,
     mask_inputs: bool = False,  # as in alpaca-lora
-    data_file_name: str = "train_val_0.json",
+    data_file_name: str = "bias_CoT_explanation_multi_thread_scrambled.json",
     data_file_url: str = "https://raw.githubusercontent.com/tloen/alpaca-lora/main/alpaca_data_cleaned_archive.json",
     ignore_index: int = -1,
     max_seq_length: Optional[int] = None,
