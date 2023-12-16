@@ -168,9 +168,32 @@ def generate_CoT_From_GPT(
 
 def debtor(str):
   return (str.replace("<b>", "")).replace("</b>","")
+def baseline_dataset():
+    output = []
+    # Specify the path to your JSON file
+    json_file_path = './data/Metaphor_CoT_explanation_total.json'
+    # Open the JSON file and load its contents into a dictionary
+    with open(json_file_path, 'r') as json_file:
+        data_dict = json.load(json_file)
+    for item in data_dict:
+        item = item["CoT"]
+        new_item = {}
+        new_item["instruction"] = "The input text contains a text called 'literature_context', which contains a sentence. Answer with 'metaphorical' if the sentence is a metaphor or 'literal' if the sentence is not metaphorical."
+        new_item["input"] = item["input"].strip()
+        if "not metaphor" in item["output"] or "is a literal" in item["output"] or "is literal" in item["output"] or "no metaphor" in item["output"]:
+            new_item["output"] = "literal"
+        else:
+            new_item["output"] ="metaphorical"
+        
+        output.append(new_item)
+    json_list_total_string = json.dumps(output, indent=4)
+    out_file_path_json_list_total_string = "./data/Metaphor_total.json"
+    with open(out_file_path_json_list_total_string, 'w+') as file:
+        file.write(json_list_total_string)
 print("like that?")
 if __name__ == "__main__":
     # Uncomment this line if you see an error: "Expected is_sm80 to be true, but got false"
     # torch.backends.cuda.enable_flash_sdp(False)
     from jsonargparse import CLI
-    CLI(generate_CoT_From_GPT)
+    #CLI(generate_CoT_From_GPT)
+    baseline_dataset()
