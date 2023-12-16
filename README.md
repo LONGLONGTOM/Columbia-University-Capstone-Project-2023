@@ -1,23 +1,23 @@
-# Audio Transcription with WAV2VEC 2.0 
+# JP Morgan: Measuring Behavior of Language Model and Effect of Teacher model enabled CoT Reasoning Fine-tuning
 
 ### Group members Name UNI 
-- Anh-Vu Nguyen an3078 (Team captain)
-- Alexandria Guo ag4475
-- Julia Wang jw4169
-- Maxwell Zhou mtz2110
-- Sivan Ding sd3507
-- Antonin Vidon av3023
+- Haolong Liu (hl3614) (Team captain)
+- Yudu Chen (yc4142)
+- Jincheng Liu (jl6298)
+- William Gu(wg2400)
+- Yuanyi Hu (yh3506)
+
 
 Emails  &lt;UNI&gt; @ columbia.edu
 
-**Accenture mentor & co-mentors:** Dr Bhushan, Surajit Sen, Priyanka Pandey
+**Accenture mentor & co-mentors:** Akshat Gupta, Simerjot Kaur
 
-**Instructor/CA:** Prof. Sining Chen, Aayush Verma
+**Instructor/CA:** Sining Chen, Vivian Zhang, Adam Kelleher, Savannah Thais
 
-Exploration of an open source-based ASR (Automatic Speech Recognition) solution that enables custom training for Acoustic as well Language model. The solution will leverage publicly available pre-trained acoustic model that can be fine-tuned with small amount of domain specific data. 
+At the begining of the project, we actually changed our research topic. Originally, the topic was "Do Large Language Model Has a Personality?", but the mentor instructed us to study something else. 
+Our study focuses on a large language model with a relatively small size to explore these aspects. The primary challenge lies in developing an efficient training methodology that enhances the model's comprehension abilities and ensures proficiency in demonstrating these complex behaviors. The importance of this research stems from the need to understand and responsibly harness the capabilities of LLMs. By investigating a smaller model, we aim to contribute valuable insights into these models' ethical implications and practical capabilities. This understanding is crucial for the responsible development and deployment of AI technologies in societal contexts, where moral considerations are as important as technical advancements. Our study extends the investigation into the impact of a large language model's reasoning teaching, particularly employing the Chain of Thought (CoT) approach, on the model's bias, ethics, reasoning, and creativity. This exploration is necessary and meaningful, considering the increasing integration of LLMs in diverse fields. The subsequent sections of this paper detail our comprehensive approach, encompassing the generation and utilization of data with the CoT approach, the fine-tuning methodologies employed, and the evaluation metrics of the model across various dimensions. This study aims to contribute to the understanding of AI ethics and capabilities.
 
-The capstone project aims to test and improve the performance of open-source ASR (Automatic Speech Recognition) models: Facebook AI’s wav2vec 2.0, wav2vec 2.0 with a 4-gram language model, and OpenAI’s Whisper. We obtain model performance baselines, measured by word error rate (WER), by transcribing audio data from the Librispeech corpus, and then test the models’ robustness on noisy and downsampled versions of the data. We also perform tests to obtain transcription accuracy on English audio recorded by speakers with different accents and also on recordings in different languages (using wav2vec 2.0 XLSR). We build upon these models by finetuning them on audio data from the Fleurs dataset. The resulting models from our custom finetuning pipelines significantly improve WER performance over their pre-trained counterparts: finetuned wav2vec 2.0 XLSR shows an average of 44.43% (at best, 74.2%) relative reduction in WER and fine-tuned Whisper achieves an average of 36.28% (at best, 66.6%) reduction in WER compared to their base models.
-
+The problem of understanding the behaviors, including bias, ethics, reasoning, and creativity, exhibited by large language models (LLMs) is crucial given their widespread applications in contemporary society. This study aims to investigate the behavior of a relatively small language model with approximately 3 billion parameters. The challenge at hand is to find an efficient training methodology for the small language model, enabling it to comprehend and proficiently demonstrate the identified behaviors. Addressing this problem is essential for advancing our understanding of the ethical implications and capabilities of LLMs, contributing to the responsible development and deployment of artificial intelligence in various societal contexts.
 
 **Directory tree**
 ```
@@ -94,5 +94,6 @@ The capstone project aims to test and improve the performance of open-source ASR
         whisper_finetune_multilingual.ipynb
 ```
 
-
+Linked to Lierature collection: https://docs.google.com/spreadsheets/d/1b1Y5JY26M0FAwn3q2rhoSoDdpPyCs_wcNxKMjWfgoH4/edit#gid=0
+Linked to Google Drive: https://drive.google.com/drive/u/0/folders/1Q4stOpBOGKcRoVKYaS2bRvYxsDRXIUdG
 
