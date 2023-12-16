@@ -1,4 +1,4 @@
-eval_type,Moral_CoT,Moral_non_CoT,Moral_original,Commonsense_CoT,Commonsense_non_CoT,Commonsense_original,Justice_CoT,Justice_non_CoT,Justice_original
+result,Moral_CoT,Moral_non_CoT,Moral_original,Commonsense_CoT,Commonsense_non_CoT,Commonsense_original,Justice_CoT,Justice_non_CoT,Justice_original
 TP,73,74,51,60,90,60,61,52,60
 FP,43,37,27,48,82,46,54,54,50
 FN,53,40,78,112,73,106,96,112,115

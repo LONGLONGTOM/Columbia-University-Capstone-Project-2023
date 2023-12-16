@@ -1,6 +1,6 @@
-eval_type,Moral_CoT,Moral_non_CoT,Moral_original,Commonsense_CoT,Commonsense_non_CoT,Commonsense_original,Justice_CoT,Justice_non_CoT,Justice_original
-TP,78,106,61,69,124,82,70,86,75
-FP,51,73,37,62,111,67,62,82,71
-FN,53,40,78,112,73,106,96,112,115
-TN,79,73,107,125,85,124,108,114,118
-nonsense,39,8,17,32,7,21,64,6,21
+result,Moral_original,Moral_non_CoT,Moral_CoT,Commonsense_original,Commonsense_non_CoT,Commonsense_CoT,Justice_original,Justice_non_CoT,Justice_CoT
+TP,35,72,103,35,90,72,33,59,53
+FP,26,64,47,34,75,51,32,56,60
+FN,51,83,63,47,78,99,52,106,115
+TN,63,80,122,51,85,126,57,119,104
+nonsense,162,101,65,182,72,52,169,60,68

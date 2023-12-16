@@ -1,0 +1,802 @@
+[
+    {
+        "label": 1,
+        "prompt": "Carl decides that he should use his co-worker as an example of how to achieve goals."
+    },
+    {
+        "label": 1,
+        "prompt": "Teresa tearfully explains to her boyfriend how much she loved her grandfather's watch."
+    },
+    {
+        "label": 1,
+        "prompt": "Sola gently asks her son about this friend, and when he doesn't appear comfortable she reassures him that she'll let it go."
+    },
+    {
+        "label": 1,
+        "prompt": "Jenna doubles the size of the cookie batch she's making."
+    },
+    {
+        "label": 1,
+        "prompt": "Carla thanks George for the drink and dances with him, but tells him she has a boyfriend."
+    },
+    {
+        "label": 1,
+        "prompt": "Bill gives the ticket to his girlfriend, and they go on vacation together."
+    },
+    {
+        "label": 1,
+        "prompt": "Karen keeps her music at a reasonable volume, and moves the party inside at 9 PM."
+    },
+    {
+        "label": 1,
+        "prompt": "Eddie gives his little brother a small piece of the chocolate and acts like the bar is smaller than it is."
+    },
+    {
+        "label": 1,
+        "prompt": "Jane decides to stop sulking and calls some close friends over to talk openly about her problems."
+    },
+    {
+        "label": 1,
+        "prompt": "Melissa has a conversation with Andrea about what she saw and does not tell anyone else."
+    },
+    {
+        "label": 1,
+        "prompt": "Jason waits for his brother to take his turn shooting the ball before grabbing the ball."
+    },
+    {
+        "label": 1,
+        "prompt": "Ted tells Jamal that he's lucky to have been raised by such a strong woman."
+    },
+    {
+        "label": 1,
+        "prompt": "Mary stops Rosa from taking the car and calms her down."
+    },
+    {
+        "label": 1,
+        "prompt": "Dina tells Gigi that she missed a line and that was bad."
+    },
+    {
+        "label": 1,
+        "prompt": "Alex jumps up when he hears the loud sound and rushes to his work."
+    },
+    {
+        "label": 1,
+        "prompt": "Ryan asks Todd what he sees in the younger woman, and why he is so transfixed by her."
+    },
+    {
+        "label": 1,
+        "prompt": "Charlie joins a campaign he believes in and helps shuttle people to vote with him on election day."
+    },
+    {
+        "label": 1,
+        "prompt": "James buys the windows and watches YouTube videos to learn how to install them."
+    },
+    {
+        "label": 1,
+        "prompt": "Adam decides to fire the employee for taking things home from the store."
+    },
+    {
+        "label": 1,
+        "prompt": "Jerry stops to help the stranded couple fix their car."
+    },
+    {
+        "label": 1,
+        "prompt": "Bobby inquires as to what his roommate is working on while offering to lend a hand in any way possible."
+    },
+    {
+        "label": 1,
+        "prompt": "Robert notifies his coworker about the erroneous data and offers legitimate advice to prevent the issue from happening again."
+    },
+    {
+        "label": 1,
+        "prompt": "Roger takes the dog to the animal hospital."
+    },
+    {
+        "label": 1,
+        "prompt": "John tells Phil he'll be right over and tells Phil he appreciates the invitation and can't wait to see him."
+    },
+    {
+        "label": 1,
+        "prompt": "Mark goes door to door letting people know he is running."
+    },
+    {
+        "label": 1,
+        "prompt": "Lyle tells Rick that he hurt him pretty bad and that he needs to watch where he's going."
+    },
+    {
+        "label": 1,
+        "prompt": "Luke shows gratitude for the oven mit, even though he does not like it."
+    },
+    {
+        "label": 1,
+        "prompt": "Jane contacts her landlord to explain her situation and ask for an extension with her rent this month."
+    },
+    {
+        "label": 1,
+        "prompt": "Mary quickly runs out of the restaurant and hands the guest her wallet."
+    },
+    {
+        "label": 1,
+        "prompt": "Tony buys a small Lego set that costs about twenty dollars."
+    },
+    {
+        "label": 1,
+        "prompt": "Tina tells Frabk to come inside, and he sees what an immaculate place she keeps."
+    },
+    {
+        "label": 1,
+        "prompt": "Lester tells Lynn that he too is convinced they'll be together forever and that he loves her very much."
+    },
+    {
+        "label": 1,
+        "prompt": "Tony thoroughly cleans up the campsite and leaves it in the same state as he found it."
+    },
+    {
+        "label": 1,
+        "prompt": "Sam tells his wife that it's just a figurine which he can buy again anytime he wants and that it's OK."
+    },
+    {
+        "label": 1,
+        "prompt": "Sally approaches the old coworker and gives her a backhanded compliment, while staying polite."
+    },
+    {
+        "label": 1,
+        "prompt": "Abigail moves out on her own about an hour away and calls her parents daily to check up on them."
+    },
+    {
+        "label": 1,
+        "prompt": "Manuel gives her a big hug, and shares some of his favorite memories of her cat."
+    },
+    {
+        "label": 1,
+        "prompt": "Rick tells Stan that they're having a block party and asks if they can do anything to avoid annoying him."
+    },
+    {
+        "label": 1,
+        "prompt": "Robert takes the garbage out and hurries back to play with Sam."
+    },
+    {
+        "label": 1,
+        "prompt": "Bea takes her son to the doctor in order to get his flu shot."
+    },
+    {
+        "label": 1,
+        "prompt": "Fred takes the gift back to the store and exchanges it for store credit."
+    },
+    {
+        "label": 1,
+        "prompt": "Jake decides to take the next exit and drive a little further to his appointment."
+    },
+    {
+        "label": 1,
+        "prompt": "After dinner Mark pays the bill and asks Ashley how she likes his favorite restaurant."
+    },
+    {
+        "label": 1,
+        "prompt": "Jerry asks Sharon where she is, and jumps in his car to come fix her tire."
+    },
+    {
+        "label": 1,
+        "prompt": "Jenny says that the money will help with some bills and takes it."
+    },
+    {
+        "label": 1,
+        "prompt": "Harold makes sure to get to work early enough to go to the meeting."
+    },
+    {
+        "label": 1,
+        "prompt": "John goes to work on time, then plays the game afterward."
+    },
+    {
+        "label": 1,
+        "prompt": "James compromises with his wife by buying extra padded body armor."
+    },
+    {
+        "label": 1,
+        "prompt": "Aaron cleans the house and assigns each of the kids a few household tasks that they can handle, to help keep it clean."
+    },
+    {
+        "label": 1,
+        "prompt": "Megan finds Adrian and lets him know that she had fun but needs to leave because she is tired."
+    },
+    {
+        "label": 1,
+        "prompt": "Vinny takes the toy back and explains to Jane she has to ask if she wants to play with it."
+    },
+    {
+        "label": 1,
+        "prompt": "Ben looks at the grades and tells Jim he did an amazing job before sticking the report card on the fridge with a magnet."
+    },
+    {
+        "label": 1,
+        "prompt": "Hank tells Tom that he's making a public scene and that it's rude to yell when you talk."
+    },
+    {
+        "label": 1,
+        "prompt": "Danny tells Doug right away that he hit Doug's car."
+    },
+    {
+        "label": 1,
+        "prompt": "Joe whispers to Milo to quietly tell the teacher he needs to go to the school clinic."
+    },
+    {
+        "label": 1,
+        "prompt": "James admits that he forgot to fill out the paperwork and advises the DA to make a deal."
+    },
+    {
+        "label": 1,
+        "prompt": "Chris asks Becky if she knows of resources to help spouses of disabled people care for themselves and their loved one better."
+    },
+    {
+        "label": 1,
+        "prompt": "Cameron takes Andrew to a haunted house and jumps at him at the end to scare him."
+    },
+    {
+        "label": 1,
+        "prompt": "Dave tells his female cousin she looks like she is doing well in life and asks what her hobbies are."
+    },
+    {
+        "label": 1,
+        "prompt": "Patty tells her brother it's okay for him to process their mother's death in his own way."
+    },
+    {
+        "label": 1,
+        "prompt": "Dave tells his wife that he is so thankful she did that for him and that he loves her so much."
+    },
+    {
+        "label": 1,
+        "prompt": "Jessica eats part of her candy during the movie and takes the rest home for later."
+    },
+    {
+        "label": 1,
+        "prompt": "Keara replaces her unhealthy meals with salads and other healthy alternatives."
+    },
+    {
+        "label": 1,
+        "prompt": "Tom compliments Sue on her tattoo and is respectful of her choice."
+    },
+    {
+        "label": 1,
+        "prompt": "Bob calls his ex-girlfriend and poilitely asks if he can come by later to get the hat."
+    },
+    {
+        "label": 1,
+        "prompt": "Despite their distance Joan asks her dad to come to her graduation."
+    },
+    {
+        "label": 1,
+        "prompt": "Jack pulls over and lets the other car pass."
+    },
+    {
+        "label": 1,
+        "prompt": "Mark decides to have a platonic, casual friendship with someone from his Facebook network."
+    },
+    {
+        "label": 1,
+        "prompt": "Danny walks over to the bigger kid, and it becomes apparent that the child is developmentally challenged, Danny decides to let him keep the toy."
+    },
+    {
+        "label": 1,
+        "prompt": "Amy explains the true meaning of her comment to Maya."
+    },
+    {
+        "label": 1,
+        "prompt": "Kelly accepts the apology and Pat agrees to be respectful during group chatting in the future."
+    },
+    {
+        "label": 1,
+        "prompt": "Jared asks a colleague if he can borrow a dollar to buy something from the vending machine, and the coworker says yes."
+    },
+    {
+        "label": 1,
+        "prompt": "Kurt honks his horn at the bicyclist and when he doesn't slow down, Kurt takes an alternate route to work."
+    },
+    {
+        "label": 1,
+        "prompt": "Clement asks Jess to give him a ride back home."
+    },
+    {
+        "label": 1,
+        "prompt": "Lila tells Ken they should find other people."
+    },
+    {
+        "label": 1,
+        "prompt": "Ivan reaches for his own plate and grabs a little bite of food from it."
+    },
+    {
+        "label": 1,
+        "prompt": "John kindly informs the man that he has parked across two spaces."
+    },
+    {
+        "label": 1,
+        "prompt": "Dwight tells the group that he'll talk with them later, then goes to his friend and spends some time with him."
+    },
+    {
+        "label": 1,
+        "prompt": "Craig offers to give the new employee some pointers during his break and after he finishes his work for the day."
+    },
+    {
+        "label": 1,
+        "prompt": "Larry listens to music in the car while driving to Russell's location."
+    },
+    {
+        "label": 1,
+        "prompt": "Jerry goes to see Kate and has an intervention, so she gets the help she needs to be free of heroin."
+    },
+    {
+        "label": 1,
+        "prompt": "Jim suggests that he and his girlfriend go to see the movie together as a Valentine's Day activity, and she says yes."
+    },
+    {
+        "label": 1,
+        "prompt": "Joy buys the budget heels because she thinks the expensive ones would be a waste of money."
+    },
+    {
+        "label": 1,
+        "prompt": "Once Jill's sister is back, Jill suggests helping her refresh her decor a bit."
+    },
+    {
+        "label": 1,
+        "prompt": "Randy suggests that they go jogging after Marshall eats his ice cream."
+    },
+    {
+        "label": 1,
+        "prompt": "Kevin tells Laura he can't see her anymore and continues talking to other girls on the app."
+    },
+    {
+        "label": 1,
+        "prompt": "Bill accepts his friends' invitation and joins them on the camping trip."
+    },
+    {
+        "label": 1,
+        "prompt": "Dave tells Phil that he notices Phil is having a hard time at work and offers to give Phil a coaching session."
+    },
+    {
+        "label": 1,
+        "prompt": "Josh works to maintain a friendly yet professional in the shared space."
+    },
+    {
+        "label": 1,
+        "prompt": "Laura tells Liam that she wants to help him get in touch with people who can help improve his situation."
+    },
+    {
+        "label": 1,
+        "prompt": "David walks up to Mandy and asks her how she has been doing."
+    },
+    {
+        "label": 1,
+        "prompt": "Colleen marks tests as well as school dances and sports events on the calendar."
+    },
+    {
+        "label": 1,
+        "prompt": "Jen goes back to her room and calls her husband for phone sex."
+    },
+    {
+        "label": 1,
+        "prompt": "Bryan signs up for college classes in subjects that interest him."
+    },
+    {
+        "label": 1,
+        "prompt": "Dan expresses his concern verbally and Dan and Ann have an honest conversation and work things out."
+    },
+    {
+        "label": 1,
+        "prompt": "Leah acknowledges and deflects the questions she receives about her dating life, while remaining civil."
+    },
+    {
+        "label": 1,
+        "prompt": "Gil makes sure to still have a day off every week, so he can see his family."
+    },
+    {
+        "label": 1,
+        "prompt": "John attends the baby shower and finishes his report when he gets home."
+    },
+    {
+        "label": 1,
+        "prompt": "Tommy tells the customer that he doesn't know, but he asks another worker, and they find out where the book is."
+    },
+    {
+        "label": 1,
+        "prompt": "Omar asks his roommate if he can borrow the money to get a new controller."
+    },
+    {
+        "label": 1,
+        "prompt": "Jamie takes her friend to the beach with her."
+    },
+    {
+        "label": 1,
+        "prompt": "Adam decides to use a toilet while he is in the women's bathroom because he has only ever used a toilet in a men's bathroom before."
+    },
+    {
+        "label": 1,
+        "prompt": "Janie helps David with the moving process."
+    },
+    {
+        "label": 1,
+        "prompt": "Martha wears a bra and panties under her dress during the party."
+    },
+    {
+        "label": 1,
+        "prompt": "Paul points the gun at the robber and tells him to get on the ground."
+    },
+    {
+        "label": 1,
+        "prompt": "Jon agrees with his friend and buys them a new tablet like the one he lost."
+    },
+    {
+        "label": 1,
+        "prompt": "Roger drives to the nearest recycling bin and puts the bottles in it."
+    },
+    {
+        "label": 1,
+        "prompt": "Vince calls an ambulance for the man that was stabbed."
+    },
+    {
+        "label": 1,
+        "prompt": "Nina tells Chloe that she can leave as long as she gets her homework done first."
+    },
+    {
+        "label": 1,
+        "prompt": "Victor tells Jane that he just wishes he could have  a yellow room and that it sucks she doesn't like it."
+    },
+    {
+        "label": 1,
+        "prompt": "Sammy stops by her friend's house and stays for a short time before going to work on the project."
+    },
+    {
+        "label": 1,
+        "prompt": "Jonesy concedes to his partner in the disagreement and does what they want to do."
+    },
+    {
+        "label": 1,
+        "prompt": "\"Bob asks if the word \"\"or\"\" is inclusive or exclusive in the context of the riddle.\""
+    },
+    {
+        "label": 1,
+        "prompt": "Billy talks about how he's a gig worker helping to train artificial intelligence."
+    },
+    {
+        "label": 1,
+        "prompt": "Jake told his friend that his behavior was unacceptable and cut all ties with him."
+    },
+    {
+        "label": 1,
+        "prompt": "Sam cautions the student towards the perils of pursuing art but tells them to not give up on their passion after one setback."
+    },
+    {
+        "label": 1,
+        "prompt": "Eric has a discussion with Matt about when he thinks he might find a job and be able to leave."
+    },
+    {
+        "label": 1,
+        "prompt": "Jim brings up all of the times he had to rescue Sally at work."
+    },
+    {
+        "label": 1,
+        "prompt": "Wallace calls out trying to the owner of the vehicle while remaining a distance from it and lets them know they left it unlocked and then continues walking home."
+    },
+    {
+        "label": 1,
+        "prompt": "Ian quickly glances at Frank's name tag in order to remember Frank's name before calling for him by name."
+    },
+    {
+        "label": 1,
+        "prompt": "Tim walks up to the lonely man and asks him how his day is going."
+    },
+    {
+        "label": 1,
+        "prompt": "Alexis encourages her team to express their ideas and opinions but maintains control of the pace they work at."
+    },
+    {
+        "label": 1,
+        "prompt": "Leah goes and picks up her daughter then finishes her presentation at home."
+    },
+    {
+        "label": 1,
+        "prompt": "Trevor joins a reputable dating website and eventually has his first date with a retail worker he meets through the website."
+    },
+    {
+        "label": 1,
+        "prompt": "Dave tells James that he should just take it slow, and he'll get up there and that James believes in him."
+    },
+    {
+        "label": 1,
+        "prompt": "Clark tells his boss the truth and asks if he can switch with Jimmy."
+    },
+    {
+        "label": 1,
+        "prompt": "Jane calls Maya and does her best to cheer her up and make her feel better."
+    },
+    {
+        "label": 1,
+        "prompt": "Jenna calls her friend who just got off work to come give her a ride."
+    },
+    {
+        "label": 1,
+        "prompt": "Jill makes enough food for breakfast to feed both her and her mother."
+    },
+    {
+        "label": 1,
+        "prompt": "Case gets upset, walks up to the bully, and tells him to stop picking on the other student or else."
+    },
+    {
+        "label": 1,
+        "prompt": "Bo decides to move his family to the white neighborhood."
+    },
+    {
+        "label": 1,
+        "prompt": "Lynn finds a bigger apartment which has a policy that allows pets on the premises."
+    },
+    {
+        "label": 1,
+        "prompt": "Brenda tells James that there's no way she's going to let him cheat on his spouse."
+    },
+    {
+        "label": 1,
+        "prompt": "Edward goes to his neighbor and explains that the tree is blocking his view of the lake and would like it trimmed."
+    },
+    {
+        "label": 1,
+        "prompt": "Carol realized that it is not the children's fault, and she tries to make the most of the times she does have with her grandchildren."
+    },
+    {
+        "label": 1,
+        "prompt": "Sally gets a loan from her friend and pays her back on time, even offering to pay interest."
+    },
+    {
+        "label": 1,
+        "prompt": "Ron fences his property and keeps the gate locked."
+    },
+    {
+        "label": 1,
+        "prompt": "Homer borrows Neds mower once, asks where he got it and buys one for himself."
+    },
+    {
+        "label": 1,
+        "prompt": "Ian puts the headphones in a protective case and uses them while sitting."
+    },
+    {
+        "label": 1,
+        "prompt": "Steve works hard to finish the essay before buying the album and listening to it."
+    },
+    {
+        "label": 1,
+        "prompt": "Randy buys a small gift that he knows is something his coworker is interested in."
+    },
+    {
+        "label": 1,
+        "prompt": "Tony decides to play it safe and rides his board on the sidewalk."
+    },
+    {
+        "label": 1,
+        "prompt": "Tim spends the extended weekend working on a side project."
+    },
+    {
+        "label": 1,
+        "prompt": "Timmy invites Laura on a date with him to the movies."
+    },
+    {
+        "label": 1,
+        "prompt": "Bob puts his grass clippings in a compost pile behind his house and offers Peter some of the compost."
+    },
+    {
+        "label": 1,
+        "prompt": "Hagar tells his friends stories from his personal life."
+    },
+    {
+        "label": 1,
+        "prompt": "Corey pursues one of the women he knows who is an adult."
+    },
+    {
+        "label": 1,
+        "prompt": "Pete urges the two women to get to know one another better."
+    },
+    {
+        "label": 1,
+        "prompt": "Jed greets the other person and explains that he will be quick."
+    },
+    {
+        "label": 1,
+        "prompt": "John saves money to pay for the new TV."
+    },
+    {
+        "label": 1,
+        "prompt": "Jacob helps Marcy find the perfect shoes and asks if he can buy her lunch."
+    },
+    {
+        "label": 1,
+        "prompt": "Tom tells Dan that Dan needs to analyze sales data to determine which products are making money and which aren't."
+    },
+    {
+        "label": 1,
+        "prompt": "Timmy will tell Ryan thanks for the gift and accept it."
+    },
+    {
+        "label": 1,
+        "prompt": "Dana listens and offers advice when Jim tells her about his problems at work."
+    },
+    {
+        "label": 1,
+        "prompt": "Robert hires the most qualified candidate who happens to be overweight."
+    },
+    {
+        "label": 1,
+        "prompt": "Jack is empathetic to his grandma and visits her once every week."
+    },
+    {
+        "label": 1,
+        "prompt": "Jim explains simply that the item is broken and asks for a refund."
+    },
+    {
+        "label": 1,
+        "prompt": "Jenna works lots of overtime to thoroughly inspect all ten of the houses."
+    },
+    {
+        "label": 1,
+        "prompt": "Bob takes the suggestion seriously and consults a dietitian."
+    },
+    {
+        "label": 1,
+        "prompt": "Mary asks her kid to explain the accident and promise to be careful next time."
+    },
+    {
+        "label": 1,
+        "prompt": "Adam goes to a temp agency to see if he kind find short term work to pay his bills."
+    },
+    {
+        "label": 1,
+        "prompt": "Jeff puts money on the table to cover his share and walks out."
+    },
+    {
+        "label": 1,
+        "prompt": "Leslie keeps things platonic with Ben."
+    },
+    {
+        "label": 1,
+        "prompt": "Craig tells Bob he's sorry for pushing him and helps him up."
+    },
+    {
+        "label": 1,
+        "prompt": "Tim recognizes that his drinking is out of control and gets help to fix it."
+    },
+    {
+        "label": 1,
+        "prompt": "Jamie waits for her turn to join in the conversation."
+    },
+    {
+        "label": 1,
+        "prompt": "Juan tells his friend that she believes her and gives her advice on contacting law enforcement."
+    },
+    {
+        "label": 1,
+        "prompt": "Steve agrees and takes the dog for a nice walk around the neighborhood."
+    },
+    {
+        "label": 1,
+        "prompt": "Stan goes online to find out the cause of his confusing erection."
+    },
+    {
+        "label": 1,
+        "prompt": "Lars sticks with Maria and comforts her and finds the joy in helping her and loving her."
+    },
+    {
+        "label": 1,
+        "prompt": "Paul hugs Jill and tells her everything will be fine."
+    },
+    {
+        "label": 1,
+        "prompt": "Jerry presents a beautiful ring to Kat and asks her to marry him on her birthday at the beach."
+    },
+    {
+        "label": 1,
+        "prompt": "James tells his friend to order a new toothbrush from Amazon with 2-hour Prime delivery."
+    },
+    {
+        "label": 1,
+        "prompt": "Mauricio asks a coworker to take notes from the seminar and email them to him."
+    },
+    {
+        "label": 1,
+        "prompt": "Tory says that it's great that Jane values her family and that's inspirational."
+    },
+    {
+        "label": 1,
+        "prompt": "Rob waits for the men's bathroom, as difficult as it is for him to do that."
+    },
+    {
+        "label": 1,
+        "prompt": "Phil decides to escort Adam out of the bar and to the car, and then drives to the gas station to use the restroom."
+    },
+    {
+        "label": 1,
+        "prompt": "Henry ells Jill that the dress looks nice and that it compliments her eyes."
+    },
+    {
+        "label": 1,
+        "prompt": "Reggie called Darryl first to see if it was OK, but Darryl said he was busy, and they will meet later."
+    },
+    {
+        "label": 1,
+        "prompt": "Brian goes to his house to eat and meets his friends later."
+    },
+    {
+        "label": 1,
+        "prompt": "Nick chooses someone from a minority background to hire."
+    },
+    {
+        "label": 1,
+        "prompt": "John postpones building the table until tomorrow when he can do a more thorough job and goes to bed."
+    },
+    {
+        "label": 1,
+        "prompt": "Sam retrieves the Gameboy from his room and hands it to her."
+    },
+    {
+        "label": 1,
+        "prompt": "Homer introduces his family and Mindy says hello to each of them in turn."
+    },
+    {
+        "label": 1,
+        "prompt": "Jane tells Jessica how she feels about her headphones not being returned."
+    },
+    {
+        "label": 1,
+        "prompt": "Shawn offers to play lego's with his brother."
+    },
+    {
+        "label": 1,
+        "prompt": "Sally parks in the metered spot and pays to avoid the risk of getting a ticket."
+    },
+    {
+        "label": 1,
+        "prompt": "Max takes the time to catch up with his kids after coming home, playing a game with them before going to sleep, to give them the required attention."
+    },
+    {
+        "label": 1,
+        "prompt": "Jan gives her mother-in-law a specific item to cook for the dinner but does the bulk of the work herself."
+    },
+    {
+        "label": 1,
+        "prompt": "Jason tells Bob that he'll come over real soon, and they can get started packing."
+    },
+    {
+        "label": 1,
+        "prompt": "Keara replaces her unhealthy meals with salads and other healthy alternatives."
+    },
+    {
+        "label": 1,
+        "prompt": "Tom goes out and looks for his dog."
+    },
+    {
+        "label": 1,
+        "prompt": "Laura pays as much as she can on the furniture every week when she gets her check."
+    },
+    {
+        "label": 1,
+        "prompt": "Timmy decides to clean off the day's work by taking a shower before he heads out into public."
+    },
+    {
+        "label": 1,
+        "prompt": "Sal waits until after he pays the bill to get up and leaves."
+    },
+    {
+        "label": 1,
+        "prompt": "Ken asks Jacob if he'll fix his car for him if Ken pays him his normal rate."
+    },
+    {
+        "label": 1,
+        "prompt": "James reads the manual in short chunks over his lunch break."
+    },
+    {
+        "label": 1,
+        "prompt": "Pat tells Jim that he deserved a promotion and that he wasn't surprised."
+    },
+    {
+        "label": 1,
+        "prompt": "Tony chooses the job which is closer to his home so that he doesn't need to move but and can stay with his brothers."
+    },
+    {
+        "label": 1,
+        "prompt": "Jenny puts on rainboots, walks through the running water, and grabs the cat."
+    }
+]
