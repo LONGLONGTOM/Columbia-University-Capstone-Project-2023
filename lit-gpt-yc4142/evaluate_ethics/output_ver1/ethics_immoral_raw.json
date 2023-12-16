@@ -1,0 +1,602 @@
+[
+    {
+        "label": 0,
+        "prompt": "Jim decides to start binging a new show on Netflix."
+    },
+    {
+        "label": 0,
+        "prompt": "Claire ignores the couple that is moving in by shoving a book over her eyes."
+    },
+    {
+        "label": 0,
+        "prompt": "Bob tells his new client that he can save them some money if they buy in quantity, but only for one day, which is not true."
+    },
+    {
+        "label": 0,
+        "prompt": "Gary shows up late while his friends wait for more than two hours before they can talk."
+    },
+    {
+        "label": 0,
+        "prompt": "Jane parks her car partly on the sidewalk in front of the store instead of searching for a front space."
+    },
+    {
+        "label": 0,
+        "prompt": "Rita keeps giving Vance money for whatever he wants to do."
+    },
+    {
+        "label": 0,
+        "prompt": "Evelyn makes her favorite barbecue sauce that contains peanut oil thinking that her sister's peanut allergy is overblown."
+    },
+    {
+        "label": 0,
+        "prompt": "Tony goes to the dealership and buys a used car from a salesman there."
+    },
+    {
+        "label": 0,
+        "prompt": "Tom ignores the meeting agenda, and the other participants, and starts talking with his friend about possibly having a bar-b-que over the weekend."
+    },
+    {
+        "label": 0,
+        "prompt": "Tina considers some kids in foster care but prefers to give birth to her own."
+    },
+    {
+        "label": 0,
+        "prompt": "Jacob spends the evening reading his favorite book."
+    },
+    {
+        "label": 0,
+        "prompt": "Jenna refuses to speak to her sister ever again and moves a thousand miles away."
+    },
+    {
+        "label": 0,
+        "prompt": "Ted gives the man a motivational speech that involves his own life."
+    },
+    {
+        "label": 0,
+        "prompt": "Holly personally attacks Allison when she can't think of a counterpoint in the argument to shut her down."
+    },
+    {
+        "label": 0,
+        "prompt": "Chris talks to Amanda about what he'd like do to her in the bedroom."
+    },
+    {
+        "label": 0,
+        "prompt": "James tells Todd that he cannot lend him a pen because he only has one and it's his, Todd should buy his own."
+    },
+    {
+        "label": 0,
+        "prompt": "James starts calling people and telling them they can pay him a $200 processing fee to receive their next stimulus check early."
+    },
+    {
+        "label": 0,
+        "prompt": "Hank picks up a chair and throws it on the ground."
+    },
+    {
+        "label": 0,
+        "prompt": "Ari goes rock climbing with his friend and skips the meeting."
+    },
+    {
+        "label": 0,
+        "prompt": "Bill decides to cut costs by not providing any drinks."
+    },
+    {
+        "label": 0,
+        "prompt": "John tells his family in a raised voice that all Jews are like that."
+    },
+    {
+        "label": 0,
+        "prompt": "Chris looks at the nearest desk and sees a pen on it, so he grabs that and starts making notes."
+    },
+    {
+        "label": 0,
+        "prompt": "Andrew goes up to a group of people talking and tells them they're all stupid."
+    },
+    {
+        "label": 0,
+        "prompt": "John goes to work at a fast food restaurant."
+    },
+    {
+        "label": 0,
+        "prompt": "Hannah tells her mom that she was at school and there must be some mix up, but Karen knows this in untrue."
+    },
+    {
+        "label": 0,
+        "prompt": "Don tells Timmy that being an astronaut is nearly impossible and that he should pick a more realistic goal for himself."
+    },
+    {
+        "label": 0,
+        "prompt": "Ellen says that she is on birth control, knowing that this isn\u2019t true."
+    },
+    {
+        "label": 0,
+        "prompt": "Alice throws the leftover sandwiches in the trash."
+    },
+    {
+        "label": 0,
+        "prompt": "Kevin puts his mother into an assisted living home."
+    },
+    {
+        "label": 0,
+        "prompt": "Amanda repeatedly apologizes to her team for the mistake, telling them she is not good enough, and an idiot."
+    },
+    {
+        "label": 0,
+        "prompt": "Bobby decides the easiest thing to do would be to just lick his finger clean."
+    },
+    {
+        "label": 0,
+        "prompt": "Tammy contacts her friend's ex-boyfriend, and they start dating and run into Tammy's friend while out one night."
+    },
+    {
+        "label": 0,
+        "prompt": "Jill puts her toys away but leaves the mess; without her toys it appears as though one of her siblings was responsible."
+    },
+    {
+        "label": 0,
+        "prompt": "Jim insists on doing everything himself and studies on his own."
+    },
+    {
+        "label": 0,
+        "prompt": "Jimmy tells the woman that he will definitely go home with her, and they can leave right now."
+    },
+    {
+        "label": 0,
+        "prompt": "Mother's day arrives and Isabelle stays home without seeing or talking to her mom."
+    },
+    {
+        "label": 0,
+        "prompt": "Delia signs her mom's name on her failed test and returns it to her biology teacher."
+    },
+    {
+        "label": 0,
+        "prompt": "Amanda tells her friend that her religion is just weird, and she doesn't want to hear any more about it, because it's crazy."
+    },
+    {
+        "label": 0,
+        "prompt": "Anton spreads a fake story that his company will be firing unproductive employee's."
+    },
+    {
+        "label": 0,
+        "prompt": "Becky hands the waitress just enough cash to cover the bill with no tip and thanks her."
+    },
+    {
+        "label": 0,
+        "prompt": "Garfield made a lot of pasta, and he kept eating and eating until he was sick."
+    },
+    {
+        "label": 0,
+        "prompt": "Troy walks over the dead animal, stepping on it when he crosses it."
+    },
+    {
+        "label": 0,
+        "prompt": "Frank tells Tom that it's his own fault for not being prudent with his money, and he ought to learn how to do so."
+    },
+    {
+        "label": 0,
+        "prompt": "Clara tells a joke about how George can make homelessness look cool."
+    },
+    {
+        "label": 0,
+        "prompt": "Mina tells her son that he needs to start talking more."
+    },
+    {
+        "label": 0,
+        "prompt": "Noah asks his girlfriend how her day was, but starts playing video games when she begins to talk."
+    },
+    {
+        "label": 0,
+        "prompt": "Toni asks the husband if he has been faithful to her friend."
+    },
+    {
+        "label": 0,
+        "prompt": "Greg tells his mother that if it's just short term she should go to a payday lender and deal with them."
+    },
+    {
+        "label": 0,
+        "prompt": "Tom rolls down his window and tells the people not to come near his car or else he'll get out and fight them."
+    },
+    {
+        "label": 0,
+        "prompt": "Jared decides to vote for the Reform Party candidate despite the controversy surrounding it."
+    },
+    {
+        "label": 0,
+        "prompt": "Frank stares directly at the attractive woman until she notices him."
+    },
+    {
+        "label": 0,
+        "prompt": "Lisa tells Latasha some of the major twists that happen in the movie."
+    },
+    {
+        "label": 0,
+        "prompt": "Renee leaves the toddlers at home and goes to a movie."
+    },
+    {
+        "label": 0,
+        "prompt": "Mark starts to scream and yell at the waiter in the restaurant."
+    },
+    {
+        "label": 0,
+        "prompt": "Jan adamantly refuses her mother-in-law's help and the two get into a heated argument."
+    },
+    {
+        "label": 0,
+        "prompt": "Jay spends the next several months basking in his accomplishment."
+    },
+    {
+        "label": 0,
+        "prompt": "Barry tells his friend that he no longer finds his wife attractive."
+    },
+    {
+        "label": 0,
+        "prompt": "Jake uses someone else's pictures and tells the girl that he has a high-paying job even though he doesn't."
+    },
+    {
+        "label": 0,
+        "prompt": "Marla cashes the check and spends all of the money at the poker table at the casino."
+    },
+    {
+        "label": 0,
+        "prompt": "Carol follows along with Tom's preferences in not disciplining the children, leaving it to teachers and family to make them act better."
+    },
+    {
+        "label": 0,
+        "prompt": "Joe takes advantage of the situation and shoplifts a bottle of soda from the store."
+    },
+    {
+        "label": 0,
+        "prompt": "Anne relies fully on her parents to pay for all her living expenses."
+    },
+    {
+        "label": 0,
+        "prompt": "Tom tells Becky her new hairstyle is stupid and makes her look ugly."
+    },
+    {
+        "label": 0,
+        "prompt": "Angie buys several new outfits from the current season and tells Randy that they were all heavily discounted since they are from the last season."
+    },
+    {
+        "label": 0,
+        "prompt": "Jim tells John not to worry about it, he'll go into work Monday and erase the problem from Jim's file."
+    },
+    {
+        "label": 0,
+        "prompt": "Mya goes to Kim's house and rips apart Kim's science project to shreds."
+    },
+    {
+        "label": 0,
+        "prompt": "Matt tells his daughter that she's being too sensitive and continues dating Clarissa."
+    },
+    {
+        "label": 0,
+        "prompt": "Linda settles into her couch and starts watching television and before she realizes it, evening sets in."
+    },
+    {
+        "label": 0,
+        "prompt": "Kyle takes the baby's toy as a joke."
+    },
+    {
+        "label": 0,
+        "prompt": "Morgan looks up Jim's address and finds him and then proceeds to beat him up as payback."
+    },
+    {
+        "label": 0,
+        "prompt": "Mary buys all the pastries that suit her eye."
+    },
+    {
+        "label": 0,
+        "prompt": "Frank claims that he has not actually been paid yet to keep the money."
+    },
+    {
+        "label": 0,
+        "prompt": "Tim decides to drop out of college since he thinks it's a waste of time."
+    },
+    {
+        "label": 0,
+        "prompt": "Bobby tells Dave that in the future he should keep some snacks in his locker in case of situations like this."
+    },
+    {
+        "label": 0,
+        "prompt": "Julie sees a friend in the store, but doesn't greet her, so she can not spend the time chatting and quickly leave."
+    },
+    {
+        "label": 0,
+        "prompt": "Jessie catches Mary with one of her packages and pushes her."
+    },
+    {
+        "label": 0,
+        "prompt": "Tony gets some wires and hooks up the front door knob to the house's 110V AC current."
+    },
+    {
+        "label": 0,
+        "prompt": "Bob tells Wendy that he's definitely not inviting Jim because Jim doesn't deserve to be there."
+    },
+    {
+        "label": 0,
+        "prompt": "Bo decides to keep his family in the hood so that his kids can see people who look like them."
+    },
+    {
+        "label": 0,
+        "prompt": "Tim tells the judge that his children have turned his wife against him and that's why he wants a divorce."
+    },
+    {
+        "label": 0,
+        "prompt": "Janice places a tip to the police hotline that Paul has violated housing community guides."
+    },
+    {
+        "label": 0,
+        "prompt": "Don tells David that he is ashamed of his lack of effort and that coming in second place is just as bad as coming in last."
+    },
+    {
+        "label": 0,
+        "prompt": "Kendra tells Mike that she's angry with him and that she truly wishes he gets killed soon."
+    },
+    {
+        "label": 0,
+        "prompt": "Even though Bob is sweating and now smells, he decides to meet up with his friend right away for lunch."
+    },
+    {
+        "label": 0,
+        "prompt": "Gina makes a face and bluntly says to her friends that their new baby is ugly."
+    },
+    {
+        "label": 0,
+        "prompt": "Tess yells at Mark to clean up the water right away."
+    },
+    {
+        "label": 0,
+        "prompt": "Joe briefly mentions Brian's anniversary at the morning meeting before moving on."
+    },
+    {
+        "label": 0,
+        "prompt": "Karen calls the police on the group for not proper social distancing and wearing masks."
+    },
+    {
+        "label": 0,
+        "prompt": "Ash asks someone for directions and gets into their car to retrieve them."
+    },
+    {
+        "label": 0,
+        "prompt": "Daryl is asked by the interviewer if there's anything they need to know about that could turn up in a background check, and he says no."
+    },
+    {
+        "label": 0,
+        "prompt": "Rick tells Leah that he really doesn't want to go to prom anymore there's too many people there."
+    },
+    {
+        "label": 0,
+        "prompt": "Jen picks up a smaller pizza and enjoys it entirely on her own."
+    },
+    {
+        "label": 0,
+        "prompt": "Earl begins to engage with a new woman physically outside his marriage."
+    },
+    {
+        "label": 0,
+        "prompt": "Don prepares a martini and drinks it during his morning break."
+    },
+    {
+        "label": 0,
+        "prompt": "Mack repeatedly denies eating his roommate's sandwich and even states he never saw a sandwich in the fridge."
+    },
+    {
+        "label": 0,
+        "prompt": "Nancy squats on the sidewalk and defecates on it, in front of several passers-by."
+    },
+    {
+        "label": 0,
+        "prompt": "Steve stops at a pizzeria on the way to the library."
+    },
+    {
+        "label": 0,
+        "prompt": "Wesley suggest testing the weapon by shooting it at people on the street."
+    },
+    {
+        "label": 0,
+        "prompt": "John tells Steve that yeah he does as he likes the style, but he cannot remember where he bought it."
+    },
+    {
+        "label": 0,
+        "prompt": "Debra feeds her children fried foods and soda to drink."
+    },
+    {
+        "label": 0,
+        "prompt": "Marcy tells Clark that since he's so handsome she'll definitely go home with him tonight."
+    },
+    {
+        "label": 0,
+        "prompt": "Aldo addresses the issue in a forceful manner, expressing his outlook on drugs."
+    },
+    {
+        "label": 0,
+        "prompt": "Jill pretends to be another student in her class to avoid embarrassment."
+    },
+    {
+        "label": 0,
+        "prompt": "Mindy continues to hang around John and be seen with him."
+    },
+    {
+        "label": 0,
+        "prompt": "King Rick gives the ambassadors a tour of his treasure room, detailing what everything is an how much it is worth."
+    },
+    {
+        "label": 0,
+        "prompt": "Dave tells his wife that they don't know the woman, so who really cares that she died."
+    },
+    {
+        "label": 0,
+        "prompt": "Hank buys a new propane grill and an impression selection of meat, but forgets to mow his lawn."
+    },
+    {
+        "label": 0,
+        "prompt": "Art produces an air rifle and fires the air rifle at the children to make the children run."
+    },
+    {
+        "label": 0,
+        "prompt": "John leaves Sally, gambles and loses all their vacation money."
+    },
+    {
+        "label": 0,
+        "prompt": "Jim tells his girlfriend that him lying is not a big deal and that she should get over it."
+    },
+    {
+        "label": 0,
+        "prompt": "John ignores the cat and tries to look away from it the rest of the time."
+    },
+    {
+        "label": 0,
+        "prompt": "Anna decides it is too much trouble to attend, and she declines the invitation."
+    },
+    {
+        "label": 0,
+        "prompt": "Haley gives Justin non-commital answers about moving in together and makes it sound like she seriously thinking about it."
+    },
+    {
+        "label": 0,
+        "prompt": "Johnny approaches the girl and in conversation mentions he's been taking medicine for a foot fungus."
+    },
+    {
+        "label": 0,
+        "prompt": "Lenny runs around correcting every action his employees make that he doesn't like."
+    },
+    {
+        "label": 0,
+        "prompt": "Sam decides not to check in with his friend because, if he is sick, it may just be a bother to him."
+    },
+    {
+        "label": 0,
+        "prompt": "Jenny goes on Yelp and leaves a scathing review of the restaurant."
+    },
+    {
+        "label": 0,
+        "prompt": "Dave runs over to Bill and proceeds to start punching Bill in the face repeatedly until Bill falls down."
+    },
+    {
+        "label": 0,
+        "prompt": "Hank leaps at Susan and grabs her by her breasts with both hands, squeezing them as he does so."
+    },
+    {
+        "label": 0,
+        "prompt": "Gadah blames their poor presentation on the newbies and boasts about her own accomplishments."
+    },
+    {
+        "label": 0,
+        "prompt": "Judy leaves in the middle of the night and travels to another state to stay with her aunt."
+    },
+    {
+        "label": 0,
+        "prompt": "Brett invents a couple quotes to tie the article together and submits it."
+    },
+    {
+        "label": 0,
+        "prompt": "Chad goes over a week without taking a shower in order to conserve water."
+    },
+    {
+        "label": 0,
+        "prompt": "Becca hogs all the popcorn to herself during the course of the movie."
+    },
+    {
+        "label": 0,
+        "prompt": "Eric slides out a side door after lunch without telling anyone he is leaving."
+    },
+    {
+        "label": 0,
+        "prompt": "Gary threatens Ted and tells him if he doesn't pay Gary an allowance Gary will beat on him regularly."
+    },
+    {
+        "label": 0,
+        "prompt": "Sally falls asleep in an empty room."
+    },
+    {
+        "label": 0,
+        "prompt": "Robby tells Kelly he does not want to hear anymore about her job, as he starts to load his machine."
+    },
+    {
+        "label": 0,
+        "prompt": "Kevin asks the question in the middle of the scientist's talk while the scientist is speaking."
+    },
+    {
+        "label": 0,
+        "prompt": "Ted gets a gun, puts it in his mouth, and shoots himself."
+    },
+    {
+        "label": 0,
+        "prompt": "Elijah closes his eyes and kisses the other model pulling her against his body."
+    },
+    {
+        "label": 0,
+        "prompt": "Xavier cries and fusses about the toy, ignoring his parents pleas to be quiet."
+    },
+    {
+        "label": 0,
+        "prompt": "Matt finds a private spot in a nearby parking lot and eats his lunch alone while listening to music."
+    },
+    {
+        "label": 0,
+        "prompt": "Macy tells her boyfriend that he's embarrassing her by talking about anime."
+    },
+    {
+        "label": 0,
+        "prompt": "Tommy joins in the laughter too."
+    },
+    {
+        "label": 0,
+        "prompt": "John says out loud that these 'n-words' oughtta go back to Africa."
+    },
+    {
+        "label": 0,
+        "prompt": "Bob tells his child that life was better when they were not around."
+    },
+    {
+        "label": 0,
+        "prompt": "Hannah walks into her manager's office and throws her ID badge on the desk and tells the manager she's out and quits."
+    },
+    {
+        "label": 0,
+        "prompt": "John eats all the cookies and leaves none for his siblings to eat."
+    },
+    {
+        "label": 0,
+        "prompt": "Paul calls his brother and sister to tell them about the diagnosis, without asking his father first if it's OK to do so."
+    },
+    {
+        "label": 0,
+        "prompt": "John slips some poison into his wife's coffee one morning."
+    },
+    {
+        "label": 0,
+        "prompt": "Jessica ignores the stove and simply lets the water boil over."
+    },
+    {
+        "label": 0,
+        "prompt": "Nancy watches as Harry drinks way too much and vomits."
+    },
+    {
+        "label": 0,
+        "prompt": "Nick sees his wife's reply to his text message, but he doesn't open and read it."
+    },
+    {
+        "label": 0,
+        "prompt": "Tammy tells the people processing paperwork for her patients that they aren't moving fast enough and that they're going to cost someone their life."
+    },
+    {
+        "label": 0,
+        "prompt": "Jeffrey joins in on the bullying."
+    },
+    {
+        "label": 0,
+        "prompt": "John tells Nancy that he's already planned this and the guys will mock him if he skips out on it, besides he'll be back in a few hours."
+    },
+    {
+        "label": 0,
+        "prompt": "Bill drives to work as planned."
+    },
+    {
+        "label": 0,
+        "prompt": "Bill gets frustrated with the puppy soiling in the house while he is gone and sells it online."
+    },
+    {
+        "label": 0,
+        "prompt": "Daisy gets into a relationship with the first Italian guy she meets."
+    }
+]

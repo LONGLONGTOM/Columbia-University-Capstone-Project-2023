@@ -1,0 +1,6 @@
+,result,Moral_original,Moral_non_CoT,Moral_CoT,Commonsense_original,Commonsense_non_CoT,Commonsense_CoT,Justice_original,Justice_non_CoT,Justice_CoT
+0,TP,35,72,103,35,90,72,33,59,53
+1,FP,26,64,47,34,75,51,32,56,60
+2,FN,51,83,63,47,78,99,52,106,115
+3,TN,63,80,122,51,85,126,57,119,104
+4,nonsense,162,101,65,182,72,52,169,60,68

@@ -1,0 +1,6 @@
+eval_type,Moral,Commonsense,Justice
+TP,70,70,67
+FP,53,68,64
+FN,103,95,105
+TN,126,102,114
+nonsense,48,65,50
